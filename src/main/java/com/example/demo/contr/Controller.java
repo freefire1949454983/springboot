@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 
-@CrossOrigin(originPatterns = "http://localhost:3000")
+@CrossOrigin(originPatterns = "http://54.88.65.95:3000/")
 @RestController
 @RequestMapping(value = "/book")
 public class Controller {
